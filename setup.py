@@ -12,7 +12,7 @@ It ensures open() defaults to text mode with universal newlines,
 and accepts an argument to specify the text encoding
 Python 3 only projects can skip this import
 """"
-# from io import open
+from io import open
 
 from os import path
 # Always prefer setuptools over distutils
